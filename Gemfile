@@ -10,3 +10,4 @@ gem "selenium-webdriver"
 gem "chromedriver-helper"
 gem "factory_bot"
 gem "ruby-trello"
+gem 'faker', '~> 1.6', '>= 1.6.6'
