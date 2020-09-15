@@ -20,7 +20,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24200
+              "duration": 41800
             }
           },
           {
@@ -29,7 +29,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20200
+              "duration": 30800
             }
           }
         ],
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 54700
+              "duration": 39100
             }
           }
         ]
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 493694700
+              "duration": 626266300
             }
           },
           {
@@ -79,12 +79,11 @@
             "name": "devo ver as informações do registro",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/CadastroCardTrello.rb:9"
+              "location": "features/step_definitions/CadastroCardTrello.rb:10"
             },
             "result": {
-              "status": "failed",
-              "error_message": "\nexpected: 200\n     got: 401\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/CadastroCardTrello.rb:10:in `\"devo ver as informações do registro\"'\nfeatures/specifications/CardTrello.feature:13:in `Então devo ver as informações do registro'",
-              "duration": 486721400
+              "status": "passed",
+              "duration": 618849500
             }
           }
         ],
@@ -95,7 +94,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25400
+              "duration": 34100
             }
           }
         ]
@@ -113,7 +112,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15100
+              "duration": 20300
             }
           },
           {
@@ -122,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15800
+              "duration": 65400
             }
           }
         ],
@@ -136,7 +135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20600
+              "duration": 36000
             }
           }
         ]
@@ -160,12 +159,11 @@
             "name": "é enviada a requisição para editar o card",
             "line": 17,
             "match": {
-              "location": "features/step_definitions/CadastroCardTrello.rb:13"
+              "location": "features/step_definitions/CadastroCardTrello.rb:14"
             },
             "result": {
-              "status": "failed",
-              "error_message": "784: unexpected token at 'invalid key' (JSON::ParserError)\n./features/step_definitions/CadastroCardTrello.rb:14:in `\"é enviada a requisição para editar o card\"'\nfeatures/specifications/CardTrello.feature:17:in `Quando é enviada a requisição para editar o card'",
-              "duration": 176400
+              "status": "passed",
+              "duration": 478068100
             }
           },
           {
@@ -173,10 +171,11 @@
             "name": "devo ver as informações do registro alteradas",
             "line": 18,
             "match": {
-              "location": "features/step_definitions/CadastroCardTrello.rb:17"
+              "location": "features/step_definitions/CadastroCardTrello.rb:18"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 176600
             }
           }
         ],
@@ -187,7 +186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18800
+              "duration": 27100
             }
           }
         ]
@@ -205,7 +204,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 158900
+              "duration": 42800
             }
           },
           {
@@ -214,7 +213,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 105800
+              "duration": 35100
             }
           }
         ],
@@ -228,7 +227,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 126000
+              "duration": 34200
             }
           }
         ]
@@ -252,12 +251,11 @@
             "name": "é enviada a requisição para remover o card",
             "line": 22,
             "match": {
-              "location": "features/step_definitions/CadastroCardTrello.rb:21"
+              "location": "features/step_definitions/CadastroCardTrello.rb:22"
             },
             "result": {
-              "status": "failed",
-              "error_message": "784: unexpected token at 'invalid key' (JSON::ParserError)\n./features/step_definitions/CadastroCardTrello.rb:22:in `\"é enviada a requisição para remover o card\"'\nfeatures/specifications/CardTrello.feature:22:in `Quando é enviada a requisição para remover o card'",
-              "duration": 154400
+              "status": "passed",
+              "duration": 585926500
             }
           },
           {
@@ -265,10 +263,11 @@
             "name": "posso visualizar a mensagem de sucesso da operação",
             "line": 23,
             "match": {
-              "location": "features/step_definitions/CadastroCardTrello.rb:25"
+              "location": "features/step_definitions/CadastroCardTrello.rb:26"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 46900
             }
           }
         ],
@@ -279,7 +278,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19500
+              "duration": 19800
             }
           }
         ]
