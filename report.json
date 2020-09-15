@@ -1,0 +1,289 @@
+[
+  {
+    "uri": "features/specifications/CardTrello.feature",
+    "id": "criar,-editar-e-excluir-card",
+    "keyword": "Funcionalidade",
+    "name": "Criar, Editar e Excluir card",
+    "description": "2. O usuário deve criar um card e editar esse card.\n3. O usuário deve excluir esse card e também as sujeiras geradas por esta automação.",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20200
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "a APITrello definida",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54700
+            }
+          }
+        ]
+      },
+      {
+        "id": "criar,-editar-e-excluir-card;criar-card",
+        "keyword": "Cenario",
+        "name": "Criar Card",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@criarCard",
+            "line": 10
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "é enviada a requisição para criar um card",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493694700
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo ver as informações do registro",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:9"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "\nexpected: 200\n     got: 401\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/CadastroCardTrello.rb:10:in `\"devo ver as informações do registro\"'\nfeatures/specifications/CardTrello.feature:13:in `Então devo ver as informações do registro'",
+              "duration": 486721400
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25400
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "a APITrello definida",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20600
+            }
+          }
+        ]
+      },
+      {
+        "id": "criar,-editar-e-excluir-card;editar-card",
+        "keyword": "Cenario",
+        "name": "Editar Card",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@editarCard",
+            "line": 15
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "é enviada a requisição para editar o card",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:13"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "784: unexpected token at 'invalid key' (JSON::ParserError)\n./features/step_definitions/CadastroCardTrello.rb:14:in `\"é enviada a requisição para editar o card\"'\nfeatures/specifications/CardTrello.feature:17:in `Quando é enviada a requisição para editar o card'",
+              "duration": 176400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo ver as informações do registro alteradas",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:17"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18800
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "a APITrello definida",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126000
+            }
+          }
+        ]
+      },
+      {
+        "id": "criar,-editar-e-excluir-card;excluir-card",
+        "keyword": "Cenario",
+        "name": "Excluir Card",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@excluirCard",
+            "line": 20
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "é enviada a requisição para remover o card",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:21"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "784: unexpected token at 'invalid key' (JSON::ParserError)\n./features/step_definitions/CadastroCardTrello.rb:22:in `\"é enviada a requisição para remover o card\"'\nfeatures/specifications/CardTrello.feature:22:in `Quando é enviada a requisição para remover o card'",
+              "duration": 154400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "posso visualizar a mensagem de sucesso da operação",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/CadastroCardTrello.rb:25"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19500
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
